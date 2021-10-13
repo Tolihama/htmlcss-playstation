@@ -54,7 +54,7 @@ nav {
     transform: translateX(-50%);
 }
 
-.jumbo-row {
+.jumbo .jumbo-row {
     position: absolute;
     bottom: 30px;
     z-index: 1;
@@ -71,7 +71,6 @@ nav {
                 0 0 0 4px #0072ce;
 }
 
-
 /* Features Gallery */
 .features-gallery > div > * {
     opacity: 70%;
@@ -84,4 +83,24 @@ nav {
 .features-gallery > div.active > div {
     height: 100%;
     border-bottom: 2px solid #0072ce;
+}
+
+/* MINI JUMBO */
+.mini-jumbo {
+    position: relative;
+    overflow: hidden;
+}
+
+.mini-jumbo .jumbo-bg {
+    position: absolute;
+    filter: brightness(.5);
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.8);
+}
+
+.mini-jumbo .jumbo-row {
+    position: relative;
+    z-index: 1;
 }
