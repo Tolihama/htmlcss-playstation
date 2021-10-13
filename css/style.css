@@ -1,6 +1,6 @@
 /* GENERAL STYLES */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
 
 header {
@@ -41,11 +41,14 @@ nav {
 /* JUMBO */
 .jumbo {
     position: relative;
+    background: #000;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
 .jumbo > .jumbo-bg {
     position: relative;
-    min-width: 100vw;
+    min-width: 100%;
     height: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -66,4 +69,18 @@ nav {
 .hero img.active {
     box-shadow: 0 0 0 2px #fff,
                 0 0 0 4px #0072ce;
+}
+
+
+/* Features Gallery */
+.features-gallery > div > * {
+    opacity: 70%;
+}
+
+.features-gallery > div.active > * {
+    opacity: 1;
+}
+
+.features-gallery > div.active > div {
+    border-bottom: 2px solid #0072ce;
 }
