@@ -14,6 +14,10 @@ nav {
 }
 
 /* UTILITIES */
+.btn-buy {
+    background: #cd3d0f;
+    color: white;
+}
 
 /* NAV */
 .ms_bg-light {
@@ -33,4 +37,23 @@ nav {
 
 .search-logo {
     height: 27px;
+}
+
+/* JUMBO */
+.jumbo {
+    position: relative;
+}
+
+.jumbo > .jumbo-bg {
+    position: relative;
+    min-width: 100vw;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jumbo-row {
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
 }
