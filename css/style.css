@@ -1,7 +1,6 @@
 /* GENERAL STYLES */
 body {
     font-family: Arial, sans-serif;
-    background: orange; /* TODO: debug */
 }
 
 header {
@@ -56,4 +55,15 @@ nav {
     position: absolute;
     bottom: 30px;
     z-index: 1;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hero img.active {
+    box-shadow: 0 0 0 2px #fff,
+                0 0 0 4px #0072ce;
 }
