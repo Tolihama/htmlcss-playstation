@@ -1,0 +1,36 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    background: orange; /* TODO: debug */
+}
+
+header {
+    height: 50px;
+}
+
+nav {
+    font-family: Helvetica, sans-serif;
+    height: 70px;
+}
+
+/* UTILITIES */
+
+/* NAV */
+.ms_bg-light {
+    background: #fff;
+}
+
+.ms_navbar-light .ms_navbar-nav .ms_nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+/* .ms_dropdown-toggle::after {
+    content: url('../img/chevron-down-solid.svg');
+    height: 20px;
+}
+ */
+
+.search-logo {
+    height: 27px;
+}
