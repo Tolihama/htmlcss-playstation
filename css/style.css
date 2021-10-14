@@ -79,9 +79,11 @@ ul {
 /* Features Gallery */
 .features-gallery > div > * {
     opacity: 70%;
+    transition: opacity .3s;
 }
 
-.features-gallery > div.active > * {
+.features-gallery > div.active > *,
+.features-gallery > div:hover > * {
     opacity: 1;
 }
 
