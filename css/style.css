@@ -38,7 +38,8 @@ nav {
     height: 27px;
 }
 
-/* JUMBO */
+/* MAIN */
+/* Jumbo */
 .jumbo {
     position: relative;
     background: #000;
@@ -60,7 +61,7 @@ nav {
     z-index: 1;
 }
 
-/* HERO */
+/* Hero */
 .hero img {
     width: 100%;
     border-radius: 15px;
@@ -71,7 +72,6 @@ nav {
                 0 0 0 4px #0072ce;
 }
 
-/* FEATURES */
 /* Features Gallery */
 .features-gallery > div > * {
     opacity: 70%;
@@ -86,8 +86,7 @@ nav {
     border-bottom: 2px solid #0072ce;
 }
 
-/* NEW RELEASES */
-/* Mini Jumbo */
+/* Mini Jumbo New Releases */
 .mini-jumbo {
     position: relative;
     overflow: hidden;
@@ -125,7 +124,7 @@ nav {
 .playstation-plus .ms_btn-primary {
     color: #2d64e6;
     background-color: #d9dadc;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* PlayStation Now */
@@ -135,4 +134,12 @@ nav {
 
 .playstation-now .ms_btn-light {
     font-weight: 600;
+}
+
+/* Social */
+@media screen and (min-width: 576px) {
+    .social .ms_row > div,
+    .social img {
+    max-width: 200px;
+    }
 }
