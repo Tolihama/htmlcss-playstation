@@ -12,6 +12,10 @@ nav {
     height: 70px;
 }
 
+ul {
+    list-style: none;
+}
+
 /* UTILITIES */
 .btn-buy {
     background: #cd3d0f;
@@ -142,4 +146,25 @@ nav {
     .social img {
     max-width: 200px;
     }
+}
+
+/* FOOTER */
+footer {
+    background: #00439c;
+}
+
+footer .language {
+    width: 20px;
+}
+
+footer ul a {
+    text-decoration: none;
+}
+
+footer .ps-logo-footer {
+    width: 110px;
+}
+
+footer .sie-logo {
+    width: 130px;
 }
