@@ -71,6 +71,7 @@ nav {
                 0 0 0 4px #0072ce;
 }
 
+/* FEATURES */
 /* Features Gallery */
 .features-gallery > div > * {
     opacity: 70%;
@@ -85,7 +86,8 @@ nav {
     border-bottom: 2px solid #0072ce;
 }
 
-/* MINI JUMBO */
+/* NEW RELEASES */
+/* Mini Jumbo */
 .mini-jumbo {
     position: relative;
     overflow: hidden;
@@ -105,7 +107,7 @@ nav {
     z-index: 1;
 }
 
-/* HERO NEW RELEASE */
+/* Hero New Releases */
 .hero-new-release {
     background: #1f1f1f;
 }
