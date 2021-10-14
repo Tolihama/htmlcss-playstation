@@ -17,9 +17,27 @@ ul {
 }
 
 /* UTILITIES */
+/* Custom buttons */
 .btn-buy {
     background: #cd3d0f;
-    color: white;
+    color: #fff;
+}
+
+/* Hover buttons */
+.btn-buy:hover {
+    box-shadow: 0 0 0 1px #cd3d0f inset,
+                0 0 0 3px #000 inset;
+    color: #fff;
+}
+
+.ms_btn-dark:hover {
+    box-shadow: 0 0 0 1px #1c1f23 inset,
+    0 0 0 3px #fff inset;
+}
+
+.ms_btn-primary:hover {
+    box-shadow: 0 0 0 1px #0d6efd inset,
+    0 0 0 3px #fff inset;
 }
 
 /* NAV */
@@ -34,7 +52,6 @@ ul {
     width: 10px;
     margin-left: .255em;
 }
-
 
 .search-logo {
     height: 27px;
@@ -131,6 +148,11 @@ ul {
     font-weight: 600;
 }
 
+.playstation-plus .ms_btn-primary:hover {
+    box-shadow: 0 0 0 1px #d9dadc inset,
+    0 0 0 3px #2d64e6 inset;
+}
+
 /* PlayStation Now */
 .playstation-now {
     background: #161c3b;
@@ -138,6 +160,11 @@ ul {
 
 .playstation-now .ms_btn-light {
     font-weight: 600;
+}
+
+.playstation-now .ms_btn-light:hover {
+    box-shadow: 0 0 0 1px #f8f9fa inset,
+    0 0 0 3px #000 inset;
 }
 
 /* Social */
