@@ -93,14 +93,24 @@ nav {
 
 .mini-jumbo .jumbo-bg {
     position: absolute;
-    filter: brightness(.5);
     object-fit: cover;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(.8);
+    filter: brightness(.5);
 }
 
 .mini-jumbo .jumbo-row {
     position: relative;
     z-index: 1;
+}
+
+/* HERO NEW RELEASE */
+.hero-new-release {
+    background: #1f1f1f;
+}
+
+.hero-new-release .card-img img {
+    width: 100%;
+    border-radius: 20px;
 }
