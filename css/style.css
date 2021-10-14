@@ -125,5 +125,14 @@ nav {
 .playstation-plus .ms_btn-primary {
     color: #2d64e6;
     background-color: #d9dadc;
+    font-weight: 500;
+}
+
+/* PlayStation Now */
+.playstation-now {
+    background: #161c3b;
+}
+
+.playstation-now .ms_btn-light {
     font-weight: 600;
 }
