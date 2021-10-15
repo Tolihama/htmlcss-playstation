@@ -168,11 +168,8 @@ ul {
 }
 
 /* Social */
-@media screen and (min-width: 576px) {
-    .social .ms_row > div,
-    .social img {
-    max-width: 200px;
-    }
+.social .container-lg {
+    max-width: 800px;
 }
 
 /* FOOTER */
